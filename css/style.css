@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100vw - 590px) -210px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header, main section.banner, main section.cualidades, main section.contratar div, footer div.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+}
+h1 {
+    font-weight: 700;
+    font-size: 58px;
+    letter-spacing: -0.035em;
+    color: #232C50;
+    margin-top: 71px;
+    max-width: 493px;
+}
+a, p {
+    text-decoration: none;
+    font-weight: 500;
+}
+p {
+    font-size: 16px;
+}
+button {
+    width: 134px;
+    height: 44px;
+    background-color: rgb(242, 95, 58);
+    border-radius: 22px;
+    border: none;
+    font-size: 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* ------ Header Desktop ------*/
+header {
+    align-items: center;
+    height: 174px;
+    width: 100%;
+}
+header a #logo {
+    margin-top: 7.74px;
+}
+/* --- Nav Desktop ---*/
+header nav ul a {
+    color: #242E52;
+    font-size: 13px;
+    margin: 0px 14px;
+}
+
+/* ------ Main Desktop ------*/
+/* --- Banner ---*/
+main section.banner {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100%;
+}
+main section.banner img {
+    max-width: 50%;
+}
+main section.banner div {
+    display: flex;
+    flex-direction: column;
+}
+main section.banner div p {
+    max-width: 350px;
+    line-height: 150%;
+    margin: 28px 0;
+}
+/* --- Cualidades ---*/
+main section.cualidades {
+    height: calc(100vh - 174px);
+}
+main section.cualidades h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #232851;
+    max-width: 433px;
+    margin-bottom: 36px;
+}
+main section.cualidades #cualSubtitulo {
+    max-width: 337px;
+}
+main section.cualidades .cualListado {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+main section.cualidades .cualListado h3 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #323851;
+    padding: 11.5px 0 11.5px 23px;
+    margin-bottom: 18px;
+}
+main section.cualidades .cualListado article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35.5px;
+}
+main section.cualidades .cualListado article div {
+    display: flex;
+}
+main section.cualidades span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 95, 58);
+    width: 70px;
+    height: 43px;
+    border-radius: 21.5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+main section.cualidades .cualListado p {
+    padding-left: 93px;
+    padding-right: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B3B2B7;
+}
+/* --- Testimonios ---*/
+main section.testimonios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 224px);
+}
+main section.testimonios h2 {
+    font-weight: 700px;
+    font-size: 39px;
+    color: #242E53;
+    margin-bottom: 109px;
+}
+main section.testimonios div {
+    display: flex;
+    justify-content: space-evenly;
+}
+main section.testimonios article {
+    max-width: 32.5%;
+    height: 219px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 56px 16px 39px;
+    position: relative;
+}
+main section.testimonios img {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    max-width: 70px;
+}
+main section.testimonios span {
+    font-weight: 700;
+    font-size: 16px;
+    color: #242E53;
+}
+main section.testimonios p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #B9B9C1;
+    text-align: center;
+}
+main section.testimonios button {
+    margin-top: 45px;
+}
+/* --- Contratar ---*/
+main section.contratar {
+    display: flex;
+    justify-content: center;
+    height: 224px;
+    width: 100%;
+    background-color: rgb(242, 95, 58);
+}
+main section.contratar div {
+    align-items: center;
+    width: 100%;
+}
+main section.contratar h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    max-width: 438px;
+}
+main section.contratar button {
+    background-color: #FFFFFF;
+    color: rgb(242, 95, 58);
+}
+
+/* ------ Footer Desktop ------*/
+footer {
+    display: flex;
+    justify-content: center;
+    height: 247px;
+    width: 100%;
+    background-color: #1E1E26;
+}
+footer div.footer {
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+footer div.logoSocial {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 152px;
+    height: 128px;
+}
+footer div.logoSocial div {
+    display: flex;
+    justify-content: space-between;
+}
+footer div.links {
+    display: flex;
+    justify-content: space-between;
+    height: 128px;
+    width: 393px;
+}
+footer div.links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+footer div.links li {
+    margin-bottom: 12px;
+}
+footer div.links a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+footer p {
+    position: absolute;
+    bottom: 52.93px;
+    right: 0px;
+    font-weight: 500;
+    font-size: 12.5px;
+    color: #8C8C94;
+}
+footer form {
+    height: 128px;
+}
+footer form input {
+    width: 201px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: #A0A0A0;
+    padding: 12px;
+}
+footer form input[type="text"]:hover {
+    box-shadow: 0 0 16px rgb(242, 95, 58);
+}
+footer form input[type="text"]:focus {
+    outline-color: rgb(242, 95, 58);
+}
+footer form button {
+    width: 63px;
+    margin-left: 9px;
+}
