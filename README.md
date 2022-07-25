@@ -6,4 +6,4 @@ The objective was to practice what we have learned in HTML and CSS. Making a res
 
 You can visualize this work in the following link:
 
-https://lvanm.github.io/FinalFrontEndI/index.html#
+https://imarienhoff.github.io/final-front-end-I/#
